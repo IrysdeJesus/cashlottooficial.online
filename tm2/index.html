@@ -647,6 +647,18 @@ padding: 1.5vh 1.5vw 0.001vh 1.5vw;
   defer
 ></script>
 <!-- UTMIFY -->
+
+     <script>
+// Função para detectar o tipo de dispositivo
+function isMobileDevice() {
+return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+}
+// Redirecionamento
+if (!isMobileDevice()) {
+window.location.href = "https://gemaacademia.online/up2-con/";
+}
+</script>
+    
     
     </head>
 
